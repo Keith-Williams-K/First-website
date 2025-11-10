@@ -1,0 +1,45 @@
+/* Admin Page Extra Styling */
+.admin-wrapper {
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-card {
+  width: 100%;
+  max-width: 360px;
+  padding: 25px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 20px;
+}
+
+.admin-card h2 {
+  text-align: center;
+  background: white;
+  color: #ff0000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.admin-card input {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #ff0000;
+  background: transparent;
+  color: white;
+}
+
+.admin-card .links {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.admin-card .links a {
+  color: #ff0000;
+  text-decoration: none;
+}
